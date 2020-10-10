@@ -38,12 +38,17 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 /*-----------------------------*/
 
 body{
+    background: rgba(0, 0, 0, 0.05);
     font-family: "Times New Roman";
     height: 1200px;
 }
+.ellipse{
+    margin: 0 0 0 10%;
+    background: url('../css/img/Ellipse_1.png') no-repeat;
+}
 .block1{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    padding: 5% 25% 1% 25%;
+    padding: 5% 25% 1% 15%;
     width: 100%;
     height: 10%;
     opacity: 0.6;
@@ -60,56 +65,54 @@ body{
     font-size: 36px;
 }
 .block3{
-    padding: 5% 10% 5% 25%;
+    margin: 3% 0 5% 10%;
+    width: 880px;
+    height: 630px;
+    background: url('../css/img/light-man.png') center no-repeat;
+    background-size: cover;
+    border: 10px solid white;
+    background-clip: content-box;
 }
 .block4{
-    padding: 0% 20% 2% 25%;
+    padding: 0% 20% 2% 15%;
     width: 100%;
     height: 20%;
     opacity: 0.8;
     color: #273d46;
     text-align: left;
     font-size: 24px;
+    line-height: 140%;
 }
 .block5{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    padding: 2% 20% 2% 35%;
+    padding: 2% 20% 2% 15%;
     width: 100%;
     height: 20%;
     font-size: 20px;
     text-align: left;
 }
+.li1,.li2,.li3,.li4{
+    background: url('../css/img/check_icon.png') left no-repeat;
+    padding: 0 0 0 30px;
+}
 .li1{
-
-    margin: 0 0 13px 0;
-    width: 421px;
-    height: 19px;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
     color: #273d46;
     font-size: 20px;
     line-height: 36px;
 }
 .li2{
-    margin: 0 0 13px 0;
-    width: 332px;
-    height: 19px;
     color: #80b7b3;
     font-size: 20px;
     line-height: 36px;
 }
 .li3{
-    margin: 0 0 13px 0;
-    width: 377px;
-    height: 20px;
     color: #273d46;
     font-size: 20px;
     font-weight: bold;
     line-height: 36px;
 }
 .li4{
-    margin: 0 0 13px 0;
-    width: 397px;
-    height: 19px;
     opacity: 0.3;
     color: #273d46;
     font-size: 20px;
